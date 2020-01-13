@@ -1,0 +1,134 @@
+
+body
+{
+	margin: 10px 0 ;
+	padding: 0 ;
+	text-align: left ;
+	font: 0.8em "Trebuchet MS", helvetica, sans-serif ;
+	background: rgb(238,255,0); ;
+}
+
+div#conteneur
+{
+	width: 770px ;
+	margin: auto ;
+	text-align: left ;
+	border: 2px solid rgb(172, 249, 255) ;
+	background:#ffffff
+;
+	opacity: 0.9;
+}
+
+h1#header
+{
+	height: 258px ;
+	margin: 50 ;
+	background: url(apple.JPG) no-repeat left top ;
+}
+
+h1#header a
+{
+	width: 800px ;
+	height: 70px ;
+	display: block ;
+	background: url(title.gif) no-repeat ;
+	position: relative ;
+	left: 350px;
+	top: 15px ;
+	text-indent: -5000px ;
+}
+
+
+ul#menu
+{
+	height: 35px ;
+	margin: 0 ;
+	padding: 0 ;
+	background: url(bg_menu.gif) repeat-x 0 -25px ;
+	list-style-type: none ;
+	font-style: italic;
+}
+		
+ul#menu li
+{
+	float: left ;
+	text-align: center ;
+}
+
+ul#menu li a
+{
+	width: 125px ;
+	line-height: 25px ;
+	font-size: 1.2em ;
+	font-weight: bold ;
+	letter-spacing: 2px ;
+	color: rgb(252, 252, 252) ;
+	display: block ;
+	text-decoration: none ;
+	border-right: 2px solid #dea ;
+}
+
+ul#menu li a: 
+{
+	background: url(bg_menu.gif) repeat-x 0 0 ;
+}
+
+div#contenu
+{
+	padding: 0 25px 0 100px ;
+	background: url(bg_page.gif) no-repeat 15px 15px ;
+	border: 2px solid rgb(70, 150, 87);
+}
+
+div#contenu h2
+{
+	padding-left: 25px ;
+	font-size: 1.4em ;
+	background: url(little_apple.gif) no-repeat left bottom ;
+	color: rgb(85, 58, 58) ;
+	border-bottom: 1px solid #dce35b
+;
+	font-family: "Times New Roman", Times, serif;
+	text-transform: uppercase;
+
+}
+
+div#contenu h3
+{
+	margin-left: 15px ;
+	padding-left: 5px ;
+	border-bottom: 1px solid #9b2 ;
+	border-left: 3px solid #9b2 ;
+	color: rgb(85, 58, 58) ;
+	font-style: italic; 
+	text-transform: uppercase;
+}
+
+div#contenu p
+{
+	justifytext-align:  ;
+	text-indent: 2em ;
+	line-height: 1.7em ;
+	letter-spacing: 1px;
+	font-family: arial black;
+	
+}
+
+div#contenu a
+{
+	color: rgb(141, 0, 0)
+}
+
+div#contenu a:hover
+{
+	color: #9b2 ;
+}
+
+p#footer
+{
+	margin: 0 ;
+	padding-right: 10px ;
+	line-height: 30px ;
+	text-align: right ;
+	color: rgb(124, 104, 121) ;
+}
